@@ -11,8 +11,8 @@ Binary Search Trees (BST) are also referred to as ordered binary tree. They are 
 
 | Problem                                        | Link |
 |------------------------------------------------|------|
-| Insert into a Binary Search Tree               | [LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|
-| Delete Node in a BST                           | [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)|
+| [Insert into a Binary Search Tree](#inserting-a-node-into-bst)               | [LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|
+| [Delete Node in a BST](#deleting-a-particular-node-in-bst)                           | [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)|
 | Lowest Common Ancestor of a Binary Search Tree | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)     |
 | Inorder Successor in BST                       | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1)|
 | Kth Smallest Element in BST                    | [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)    |
