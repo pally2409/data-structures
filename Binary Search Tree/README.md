@@ -122,7 +122,7 @@ class Solution:
   
   Our final recursive statement returns a null, which meets the first condition, that is root == null, and hence, the left subtree of the node value 3 is set to null. Once, this happens, the function moves towards the next statement which is simply to return the root and so on.
   
- * Node to be deleted has a single child
+* Node to be deleted has a single child
 
   Suppose you have to delete 3. We call our function deleteNode(root, 3), 
   
