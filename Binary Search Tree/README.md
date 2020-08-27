@@ -112,7 +112,7 @@ class Solution:
 
 ![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
-1. Node to be deleted is a leaf node
+* Node to be deleted is a leaf node
 
   Suppose you have to delete 1. We call our function deleteNode(root, 1), 
   
@@ -121,8 +121,8 @@ class Solution:
   3. In the next recursive call, since we have reached the node to be deleted, our node doesn't meet any of the if conditions, so, in the else statement, we check whether the root.left is null, which indeed it is, so we return the right subtree which is also null in this case.
   
   Our final recursive statement returns a null, which meets the first condition, that is root == null, and hence, the left subtree of the node value 3 is set to null. Once, this happens, the function moves towards the next statement which is simply to return the root and so on.
- 
-2. Node to be deleted has a single child
+  
+ * Node to be deleted has a single child
 
   Suppose you have to delete 3. We call our function deleteNode(root, 3), 
   
@@ -131,7 +131,7 @@ class Solution:
   
   Our final recursive statement returns the node with the value 1 and hence, the left subtree of the node with value 8 is updated to have a 1. 
   
-2. Node to be deleted has both left and right children
+* Node to be deleted has both left and right children
 
   Suppose you have to the root node 8, 
   
